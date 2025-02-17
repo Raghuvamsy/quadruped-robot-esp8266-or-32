@@ -129,5 +129,3 @@ This project is open-source under the **MIT License**. Feel free to modify and c
 🎯 Making robotics **smarter** & **simpler** with ESP8266! 🦾  
 
 ---
-
-Now you can **copy-paste this into a README.md file** on GitHub. Let me know if you need modifications! 🚀
