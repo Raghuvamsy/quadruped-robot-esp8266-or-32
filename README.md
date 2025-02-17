@@ -1,5 +1,3 @@
-Here's the complete **README.md** content so you can copy and paste it into your GitHub repository:  
-
 ---
 
 # 🕷️ ESP8266 Quadruped Spider Robot - Web Controlled
