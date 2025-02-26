@@ -116,6 +116,18 @@ This project is open-source under the **MIT License**. Feel free to modify and c
 - ✅ **Battery monitoring system**  
 
 ---
+## 👥 Team Members
+- **Raghuvamsy** (Leader,3D Prototype Designer & Software Developer) - [GitHub](https://github.com/Raghuvamsy)
+- **Saahit** (Animation & Visualization) - [GitHub](https://github.com/Brainitech)
+- **Rajesh** (Software Developer) - [GitHub](https://github.com/Rajesh-kumar23-ctl)
+- **Tashfiya** (PPT & Software Developer) - [GitHub](https://github.com/Tashfiya-05)
+- **Om Prakash** (Electronics & Hardware) - [GitHub](https://github.com/OM-cypher)
+- **Efron** () - [GitHub](#)
+- **Snehasis** (Software Developer) - [GitHub](https://github.com/omm-2005)
+
+
+  
+---
 
 ## 📩 Contribute
 🔹 **Found a bug?** Open an [Issue](https://github.com/Raghuvamsy/quadruped-robot-esp8266/issues)  
@@ -123,7 +135,8 @@ This project is open-source under the **MIT License**. Feel free to modify and c
 
 ---
 
-🚀 **Project by [Raghuvamsy](https://github.com/Raghuvamsy)**  
+🚀 **Project by [Raghuvamsy](https://github.com/Raghuvamsy)& Team** 
+
 🎯 Making robotics **smarter** & **simpler** with ESP8266! 🦾  
 
 ---
