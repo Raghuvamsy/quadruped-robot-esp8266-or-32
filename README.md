@@ -122,7 +122,7 @@ This project is open-source under the **MIT License**. Feel free to modify and c
 - **Rajesh** (Software Developer) - [GitHub](https://github.com/Rajesh-kumar23-ctl)
 - **Tashfiya** (PPT & Software Developer) - [GitHub](https://github.com/Tashfiya-05)
 - **Om Prakash** (Electronics & Hardware) - [GitHub](https://github.com/OM-cypher)
-- **Efron** () - [GitHub](#)
+- **Efron**
 - **Snehasis** (Software Developer) - [GitHub](https://github.com/omm-2005)
 
 
