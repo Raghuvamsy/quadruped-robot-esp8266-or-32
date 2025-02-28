@@ -1,13 +1,13 @@
 ---
 
-# 🕷️ ESP8266 Quadruped Spider Robot - Web Controlled
+# 🕷️ ESP32-WROOM Quadruped Spider Robot - Web Controlled
 
-This is a **quadruped robot** powered by **ESP8266**, controlled via a **web-based interface** using **WebSockets**. The project integrates **12 servos** (3 per leg) and can move **forward, backward, left, and right** using real-time web controls.  
+This is a **quadruped robot** powered by **ESP32-WROOM**, controlled via a **web-based interface** using **WebSockets**. The project integrates **12 servos** (3 per leg) and can move **forward, backward, left, and right** using real-time web controls.  
 
 ## 🚀 Features
 - **Web-Based Control**: Control the robot from a browser (no app needed).  
 - **Real-Time Commands**: Uses **WebSockets** for low-latency movement control.  
-- **ESP8266 Standalone Server**: The robot connects to a Wi-Fi network and is accessible via its IP.  
+- **ESP32-WROOM Standalone Server**: The robot connects to a Wi-Fi network and is accessible via its IP.  
 - **12 Servo Motors**: Each leg has **3 servos** for precise movements.  
 - **Expandable Sensors**: Supports **VL53L1X (LiDAR)** and **MPU6050 (IMU)** for advanced navigation.  
 
@@ -21,7 +21,7 @@ This is a **quadruped robot** powered by **ESP8266**, controlled via a **web-bas
 ## 🛠️ Hardware Components
 | Component       | Quantity | Description |
 |---------------|----------|------------|
-| **ESP8266**  | 1  | Main microcontroller for Wi-Fi control |
+| **ESP32-WROOM**  | 1  | Main microcontroller for Wi-Fi control |
 | **SG90 Servos** | 12 | 3 per leg for movement |
 | **ESP32-CAM** (Future) | 1 | For video streaming |
 | **VL53L1X LiDAR** (Future) | 1 | For obstacle detection |
@@ -32,20 +32,20 @@ This is a **quadruped robot** powered by **ESP8266**, controlled via a **web-bas
 
 ## 🔌 Wiring Diagram (Basic)
 ```
-ESP8266 GPIOs -> 12 Servo Motors
-ESP8266 Wi-Fi -> Web Interface
+ESP32-WROOM GPIOs -> 12 Servo Motors
+ESP32-WROOM Wi-Fi -> Web Interface
 ```
 ## Block Diagram
 
-![Block Diagram](https://github.com/Raghuvamsy/quadruped-robot-esp8266-or-32/raw/main/block_diagram.png)
+![Block Diagram](https://github.com/Raghuvamsy/quadruped-robot-ESP32-WROOM-or-32/raw/main/block_diagram.png)
 
 ---
 
 ## 🌐 Web-Based Interface
-The **control webpage** is hosted on the ESP8266 itself.  
+The **control webpage** is hosted on the ESP32-WROOM itself.  
 🖥️ Open a browser and go to:  
 ```
-http://<ESP8266-IP-Address>
+http://<ESP32-WROOM-IP-Address>
 ```
 🔹 **Controls Available**:
 - Move **Forward, Backward, Left, Right**
@@ -62,12 +62,12 @@ http://<ESP8266-IP-Address>
 
 ### 2️⃣ Upload the Code
 1. Open `quadruped_robot.ino` in **Arduino IDE**.
-2. Set **Board**: `NodeMCU 1.0 (ESP8266)`
+2. Set **Board**: `ESP32-WROOM`
 3. Set **Baud Rate**: `115200`
-4. Upload the code to ESP8266.
+4. Upload the code to ESP32-WROOM.
 
 ### 3️⃣ Connect to Wi-Fi
-- **Check Serial Monitor** (`115200 baud`) to get the **ESP8266 IP Address**.
+- **Check Serial Monitor** (`115200 baud`) to get the **ESP32-WROOM IP Address**.
 - Open a browser and **enter the IP** to access the control panel.
 
 ---
@@ -86,18 +86,18 @@ server.on("/control", HTTP_GET, [](AsyncWebServerRequest *request){
     request->send(200, "text/plain", "OK");
 });
 ```
-> The webpage sends commands like `/control?dir=forward` to **ESP8266**, which then moves the robot.
+> The webpage sends commands like `/control?dir=forward` to **ESP32-WROOM**, which then moves the robot.
 
 ---
 
 ## 🛠️ Troubleshooting
-### **1. ESP8266 Not Connecting to Wi-Fi?**
+### **1. ESP32-WROOM Not Connecting to Wi-Fi?**
 ✔ Ensure SSID & password are correct.  
-✔ Restart router & ESP8266.  
+✔ Restart router & ESP32-WROOM.  
 ✔ Check Serial Monitor for errors.  
 
 ### **2. Can't Access the Web Interface?**
-✔ Get ESP8266's IP from Serial Monitor.  
+✔ Get ESP32-WROOM's IP from Serial Monitor.  
 ✔ Ensure mobile/PC is on the same Wi-Fi network.  
 
 ### **3. Servo Motors Not Moving?**
@@ -133,13 +133,13 @@ This project is open-source under the **MIT License**. Feel free to modify and c
 ---
 
 ## 📩 Contribute
-🔹 **Found a bug?** Open an [Issue](https://github.com/Raghuvamsy/quadruped-robot-esp8266/issues)  
+🔹 **Found a bug?** Open an [Issue](https://github.com/Raghuvamsy/quadruped-robot-ESP32-WROOM/issues)  
 🔹 **Want to improve?** Submit a Pull Request  
 
 ---
 
 🚀 **Project by [Raghuvamsy](https://github.com/Raghuvamsy)& Team** 
 
-🎯 Making robotics **smarter** & **simpler** with ESP8266! 🦾  
+🎯 Making robotics **smarter** & **simpler** with ESP32-WROOM! 🦾  
 
 ---
