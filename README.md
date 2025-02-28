@@ -37,7 +37,7 @@ ESP32-WROOM Wi-Fi -> Web Interface
 ```
 ## Block Diagram
 
-![Block Diagram](https://github.com/Raghuvamsy/quadruped-robot-ESP32-WROOM-or-32/raw/main/block_diagram.png)
+![Block Diagram](https://github.com/Raghuvamsy/quadruped-robot-esp8266-or-32/raw/main/block_diagram.png)
 
 ---
 
