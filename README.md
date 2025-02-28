@@ -35,6 +35,9 @@ This is a **quadruped robot** powered by **ESP8266**, controlled via a **web-bas
 ESP8266 GPIOs -> 12 Servo Motors
 ESP8266 Wi-Fi -> Web Interface
 ```
+## Block Diagram
+
+![Block Diagram](https://github.com/Raghuvamsy/quadruped-robot-esp8266-or-32/raw/main/block_diagram.png)
 
 ---
 
